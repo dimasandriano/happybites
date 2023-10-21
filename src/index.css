@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper {
+	@apply w-[280px] aspect-[3/4];
+}
+
+.swiper-slide {
+	@apply flex items-center justify-center rounded-[18px] text-2xl;
+}
