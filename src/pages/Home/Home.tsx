@@ -10,7 +10,7 @@ import logo from "../../assets/logo.jpg";
 
 export default function Home() {
 	return (
-		<div className="max-w-md mx-auto min-h-screen">
+		<div className="max-w-md mx-auto min-h-screen overflow-x-hidden">
 			<img src={logo} alt="" className="w-[150px] mx-auto pt-5" />
 			<div className="flex flex-col justify-center min-h-[70vh]">
 				<Swiper
